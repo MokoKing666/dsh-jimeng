@@ -1,0 +1,8 @@
+- insert:
+    - id: jimeng-seedance
+      name: '@local/dsh-jimeng-seedance'
+      config:
+        cookieDbPath: ''
+        downloadDir: jimeng-videos
+        pollIntervalMs: 5000
+        pollTimeoutMs: 900000

@@ -1,0 +1,52 @@
+{
+  "name": "@local/dsh-jimeng-seedance",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Generate Seedance 2.5 / 2.0 videos from DeepSeek Harness through the signed-in Jimeng (即梦 AI) desktop app — no API key required.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "dsh-bundle",
+    "seedance",
+    "seedance-2.5",
+    "jimeng",
+    "即梦",
+    "dreamina",
+    "text-to-video",
+    "video-generation",
+    "ai-video"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg"
+  ],
+  "engines": {
+    "node": ">=22.5"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "MokoKing666"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MokoKing666/dsh-jimeng-seedance.git"
+  },
+  "homepage": "https://github.com/MokoKing666/dsh-jimeng-seedance#readme",
+  "bugs": {
+    "url": "https://github.com/MokoKing666/dsh-jimeng-seedance/issues"
+  },
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" }
+  }
+}

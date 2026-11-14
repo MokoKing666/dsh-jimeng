@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 使用问题 / 讨论
+    url: https://github.com/MokoKing666/dsh-jimeng-seedance/discussions
+    about: 装不上、跑不通、想聊聊用法，来 Discussions

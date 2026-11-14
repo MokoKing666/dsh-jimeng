@@ -1,0 +1,50 @@
+name: Bug report
+description: 报告一个可复现的问题
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **贴日志前请先删掉 Cookie、sessionid 和视频链接里的签名参数。**
+  - type: textarea
+    id: what
+    attributes:
+      label: 发生了什么
+      description: 实际行为，以及你期望的行为
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      placeholder: |
+        1. 在对话里说「...」
+        2. 工具返回 ...
+    validations:
+      required: true
+  - type: input
+    id: dsh
+    attributes:
+      label: dsh 版本
+      placeholder: 0.2.2-rc.3
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: 操作系统
+      placeholder: Windows 11 24H2
+    validations:
+      required: true
+  - type: input
+    id: jimeng
+    attributes:
+      label: 即梦客户端版本
+      placeholder: 在客户端「关于」里能看到
+  - type: textarea
+    id: logs
+    attributes:
+      label: 报错信息
+      description: 已脱敏
+      render: text

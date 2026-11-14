@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Jimeng Seedance video",
+    "description": "Generates Seedance 2.5 videos through the signed-in 即梦 AI desktop app and saves the finished clip into the workspace.",
+    "detail": "docs/DETAIL.md"
+  }
+}
