@@ -3,6 +3,11 @@
       name: '@local/dsh-jimeng-seedance'
       config:
         cookieDbPath: ''
-        downloadDir: jimeng-videos
+        cookieHeader: ''
+        downloadDir: jimeng-output
         pollIntervalMs: 5000
         pollTimeoutMs: 900000
+        # 保留下限：余额低于等于这个数就拒绝提交
+        minCreditsToKeep: 0
+        # 总开关：改成 false 后只允许 dryRun / 列表 / 查余额
+        allowSpend: true

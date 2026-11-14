@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Jimeng Seedance video",
-    "description": "Generates Seedance 2.5 videos through the signed-in 即梦 AI desktop app and saves the finished clip into the workspace.",
+    "title": "Jimeng AI",
+    "description": "Connects the signed-in Jimeng desktop app to dsh for image and video generation, with the model catalog read live from the account. No API key needed.",
     "detail": "docs/DETAIL.md"
   }
 }

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "即梦 Seedance 视频",
-    "description": "通过本机已登录的「即梦 AI」桌面端生成 Seedance 2.5 视频，并把成片保存到工作区。",
+    "title": "即梦 Jimeng",
+    "description": "把本机已登录的「即梦 AI」桌面端接进 dsh：生图、生视频都能调，模型列表实时从账号读取，不用 API Key。",
     "detail": "docs/DETAIL.md"
   }
 }
